@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+    <style>
+        /*element selector */
+        strong,h3{
+           border: 2px solid red;
+        }
+        /*id selector*/
+        #firstpara{
+            color:blue;
+        }
+        /*class selector*/
+       .redelements{color: violet;
+        }
+
+        /*grouping selector*/
+        footer,span{
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <h3>css selector</h3>
+    <strong id="firstpara">you are mine</strong>
+
+    <strong id="secondpara" class="redelements bgpink">this is my laptop</strong>
+    <div>
+        <p>this is my journey,i hope i will clear my journey</p>
+
+        <strong id="firstpara">you are mine</strong>
+        <span> this is the span</span>  
+    </div>
+    <footer>this is my rule</footer>
+</body>
+</html>
